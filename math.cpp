@@ -7,6 +7,11 @@ int main()
      int x;
      int z;
 
+     int plus;
+     int minus;
+     int divide;
+     int mulit;
+
     z = x + y;
 
     cout << "Bitte x eingeben:";
@@ -16,7 +21,7 @@ int main()
     cin >> x;
 
     cout << x << "+" << y << " = ";
-    cin >> z;
+    cout >> z;
 
     cout << "\n";
 
