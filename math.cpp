@@ -9,9 +9,6 @@ int main()
 
     z = x + y;
 
-
-
-
     cout << "Bitte x eingeben:";
     cin >> y;
 

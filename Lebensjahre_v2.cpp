@@ -98,15 +98,19 @@ Ich teste mit
 31.12.2018
 01.10.2018
 01.01.2017
+
+
+
+
 */
 
     cout << "Which means you have lived about "
          << endl
          << resultDay << " Day(s) "
          << endl
-         << resultMonth << " Month(s)"
+         << resultMonth << " Months"
          << endl
-         << resultYear << " Year(s)" << endl
+         << resultYear << " Years" << endl
          << endl;
 
     int remaining_years, remaining_months, remaining_days;
@@ -147,7 +151,7 @@ Ich teste mit
 
     cout << "So the years you have left to live are about "
          << endl
-         << remaining_years << " Year(s) and " << remaining_months << " Month(s) "
+         << remaining_years << " Years and " << remaining_months << " Months "
          << endl
          << remaining_days << endl;
 
