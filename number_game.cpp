@@ -2,6 +2,7 @@
 #include <thread>
 using namespace std;
 
+
 /*int get_random_function(int min, int max){
 
 }*/
@@ -14,7 +15,7 @@ void thread_function(){
 
 int get_random_function ()
 {
-     return rand() % 10 + 1;
+     return rand() % 9 + 1;
 }
 
 int game_round ( int overall_points )
@@ -37,7 +38,7 @@ int game_round ( int overall_points )
         round_points = 1;
     }
 
-    if ( (overall_points + round_points) % 10  == 0 ) {
+    if ( (overall_points + round_points) % 9  == 0 ) {
         cout << "\nWow youre lucky here have two extra Points. \n\n+2 Point \n\n ";
         round_points += 2;
     }
@@ -81,6 +82,12 @@ int main()
    
     cout <<  "GAME OVER! You have " << game_points << " Points\n" ;
     cout << "\n";
+
+if (cout<< game_points){
+
+}
+
+
     system("pause");
     //cout << "Press Enter to quit\n";
     //system("pause");
